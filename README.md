@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# Todo-List
+Vue3 簡易版代辦清單
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Demo
+https://todos-dusky-eight.vercel.app/
 
-## Recommended IDE Setup
+# 主要功能
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 可填入使用者名稱
+- 添加待辦事項
+- 添加待辦事項的類別 Business、Personal
+- 添加 Check 已完成待辦事項
+- 添加單筆刪除、多筆刪除
+- 添加所有待辦事項筆數
+  
+# 示意圖
+![image](https://github.com/54Yunyun/Todo-List/assets/102648992/e9298a01-8062-46d0-8516-7270197f9f78)
+![image](https://github.com/54Yunyun/Todo-List/assets/102648992/7b3c536b-ba8d-4753-8327-3d29325c4a39)
