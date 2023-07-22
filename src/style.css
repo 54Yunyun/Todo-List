@@ -168,7 +168,23 @@ input:checked ~ .bubble::after {
 .create-todo input[type="submit"]:hover {
 	opacity: 0.75;
 }
-
+.todo-list-wrap{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.delete-completed-btn{
+	background-color: var(--danger);
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	color: #FFF;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.delete-completed-btn:hover{
+	opacity: 0.75;
+}
 .todo-list .list {
 	margin: 1rem 0;
 } 
@@ -228,4 +244,8 @@ input:checked ~ .bubble::after {
 .todo-item.done .todo-content input {
 	text-decoration: line-through;
 	color: var(--grey);
+}
+
+.createAt{
+	margin-right: 10px;
 }
